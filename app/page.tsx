@@ -1,26 +1,18 @@
-import { Link as NextLink } from '@nextui-org/link';
-import { Snippet } from '@nextui-org/snippet';
-import { Code } from '@nextui-org/code';
-import { button as buttonStyles } from '@nextui-org/theme';
+import { Link as NextLink } from '@nextui-org/link'
 import Image from 'next/image';
-
-import { siteConfig } from '@/config/site';
 import { ArrowDownIcon } from '@heroicons/react/24/solid';
 import clsx from 'clsx';
-import { motion } from 'framer-motion';
 import BannerImage from '@/public/web-development.png';
 import Transition from '@/components/transition';
 import MyImage from '@/public/image.png';
 import { Divider } from '@nextui-org/divider';
 import { Button } from '@nextui-org/button';
-import Link from '@nextui-org/link';
 import { Progress } from '@nextui-org/progress';
 import Project1 from '@/public/project-01.png';
 import Project2 from '@/public/project-02.png';
 import Project3 from '@/public/project-03.png';
 import Project4 from '@/public/project-04.png';
 import { ContactForm } from '@/components/contact';
-// import { card } from "@nextui-org/card";
 
 export default function Home() {
   return (

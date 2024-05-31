@@ -1,11 +1,8 @@
 import '@/styles/globals.css';
 import { Metadata, Viewport } from 'next';
-import { Link } from '@nextui-org/link';
 import clsx from 'clsx';
 import { Poppins } from 'next/font/google';
-
 import { Providers } from './providers';
-
 import { siteConfig } from '@/config/site';
 import { Navbar } from '@/components/navbar';
 import { Social } from '@/components/social';

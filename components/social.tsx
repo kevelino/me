@@ -1,15 +1,8 @@
 import {
-  Navbar as NextUINavbar,
-  NavbarContent,
-  NavbarItem,
-} from '@nextui-org/navbar';
-import {
   TwitterIcon,
   GithubIcon,
   DiscordIcon,
   LinkedinIcon,
-  HeartFilledIcon,
-  SearchIcon,
 } from '@/components/icons';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
