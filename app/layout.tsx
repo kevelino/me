@@ -1,9 +1,15 @@
 import '@/styles/globals.css';
+
 import { Metadata, Viewport } from 'next';
+
 import clsx from 'clsx';
+
 import { Poppins } from 'next/font/google';
+
 import { Providers } from './providers';
+
 import { siteConfig } from '@/config/site';
+
 import { Navbar } from '@/components/navbar';
 import { Social } from '@/components/social';
 import { Footer } from '@/components/footer';

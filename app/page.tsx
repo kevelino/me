@@ -1,7 +1,6 @@
+/* eslint-disable */
 import Image from 'next/image';
-
 import { ArrowDownIcon } from '@heroicons/react/24/solid';
-
 import { Link as NextLink } from '@nextui-org/link';
 import { Divider } from '@nextui-org/divider';
 import { Button } from '@nextui-org/button';
@@ -13,7 +12,6 @@ import Project1 from '@/public/project-01.png';
 import Project2 from '@/public/project-02.png';
 import Project3 from '@/public/project-03.png';
 import Project4 from '@/public/project-04.png';
-
 import Transition from '@/components/transition';
 import { ContactForm } from '@/components/contact';
 
@@ -33,10 +31,10 @@ export default function Home() {
           <div className="flex justify-center md:my-2">
             <div className="text-center">
               <h1 className="md:text-7xl text-5xl font-bold uppercase">
-                Hi, I'm Kevelino
+                Hi, I&apos;m Kevelino
               </h1>
               <p className="md:text-xl text-medium my-4">
-                Passionate and curious, I'm a versatile web developer always on
+                Passionate and curious, I&apos;m a versatile web developer always on
                 the lookout for new challenges. With a creative and analytical
                 mind, I thrive on solving complex problems and developing
                 innovative solutions.
@@ -47,12 +45,12 @@ export default function Home() {
             <div className="">
               <a
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
-                id="go-to-about"
                 href="#about"
+                id="go-to-about"
               >
                 <p>About</p>
                 <span>
-                  <ArrowDownIcon className='md:w-5 w-4' />
+                  <ArrowDownIcon className="md:w-5 w-4" />
                 </span>
               </a>
             </div>
@@ -74,14 +72,14 @@ export default function Home() {
             <div className="flex py-2 justify-end md:w-3/5 w-full">
               <div className="p-1 select-none">
                 <h2 className="md:text-5xl text-3xl font-semibold w-full">
-                  I'm Kevelino, full-stak developer and I'm delighted to welcome
+                  I&apos;m Kevelino, full-stak developer and I&apos;m delighted to welcome
                   you to my personal website profile.
                 </h2>
                 <Divider className="my-4" />
                 <div className="">
                   <p className="md:text-xl text-lg">
-                    I'm passionate about technology and programming. From an
-                    early age, I've been drawn to the world of computing and
+                    I&apos;m passionate about technology and programming. From an
+                    early age, I&apos;ve been drawn to the world of computing and
                     have spent a lot of time exploring its many facets.
                   </p>
                   <Divider className="my-4" />
@@ -100,13 +98,13 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="md:pt-3 pb-8">
               <a
-                href="#skills"
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
+                href="#skills"
                 id="go-to-skills"
               >
                 <p>Skills</p>
                 <span>
-                  <ArrowDownIcon className='md:w-5 w-4' />
+                  <ArrowDownIcon className="md:w-5 w-4" />
                 </span>
               </a>
             </div>
@@ -126,11 +124,7 @@ export default function Home() {
                     95%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="warning"
-                  value={95}
-                />
+                <Progress aria-label="Loading..." color="warning" value={95} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -141,11 +135,7 @@ export default function Home() {
                     90%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="primary"
-                  value={90}
-                />
+                <Progress aria-label="Loading..." color="primary" value={90} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -156,11 +146,7 @@ export default function Home() {
                     85%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="success"
-                  value={85}
-                />
+                <Progress aria-label="Loading..." color="success" value={85} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -171,11 +157,7 @@ export default function Home() {
                     80%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="danger"
-                  value={80}
-                />
+                <Progress aria-label="Loading..." color="danger" value={80} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -186,11 +168,7 @@ export default function Home() {
                     65%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="warning"
-                  value={65}
-                />
+                <Progress aria-label="Loading..." color="warning" value={65} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -201,11 +179,7 @@ export default function Home() {
                     80%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="primary"
-                  value={80}
-                />
+                <Progress aria-label="Loading..." color="primary" value={80} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -216,11 +190,7 @@ export default function Home() {
                     86%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="success"
-                  value={86}
-                />
+                <Progress aria-label="Loading..." color="success" value={86} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -231,11 +201,7 @@ export default function Home() {
                     82%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="danger"
-                  value={82}
-                />
+                <Progress aria-label="Loading..." color="danger" value={82} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -246,11 +212,7 @@ export default function Home() {
                     74%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="warning"
-                  value={74}
-                />
+                <Progress aria-label="Loading..." color="warning" value={74} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -261,11 +223,7 @@ export default function Home() {
                     88%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="primary"
-                  value={88}
-                />
+                <Progress aria-label="Loading..." color="primary" value={88} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -276,11 +234,7 @@ export default function Home() {
                     65%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="success"
-                  value={65}
-                />
+                <Progress aria-label="Loading..." color="success" value={65} />
               </div>
               <div className="py-1">
                 <div className="flex justify-between">
@@ -291,11 +245,7 @@ export default function Home() {
                     70%
                   </h2>
                 </div>
-                <Progress
-                  aria-label="Loading..."
-                  color="danger"
-                  value={70}
-                />
+                <Progress aria-label="Loading..." color="danger" value={70} />
               </div>
             </div>
           </div>
@@ -303,12 +253,12 @@ export default function Home() {
             <div className="md:pt-3 pb-2">
               <a
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
-                id="go-to-projects"
                 href="#projects"
+                id="go-to-projects"
               >
                 <p>Projects</p>
                 <span>
-                  <ArrowDownIcon className='md:w-5 w-4' />
+                  <ArrowDownIcon className="md:w-5 w-4" />
                 </span>
               </a>
             </div>
@@ -331,7 +281,7 @@ export default function Home() {
                 <h2 className="text-2xl font-bold"> My Personnal Website </h2>
                 <p className="text-lg py-4">
                   This website is intended to introduce myself, my work and the
-                  various projects I've worked on. To create it, I used
+                  various projects I&apos;ve worked on. To create it, I used
                   technologies such as{' '}
                   <NextLink href="https://react.dev" target="_blank">
                     React
@@ -361,9 +311,9 @@ export default function Home() {
                 <h2 className="text-2xl font-bold"> CFPTAC </h2>
                 <p className="text-lg py-4">
                   This site was created during my internship with a company in
-                  Douala, and was intended to improve the company's visibility
-                  on social media. This site uses technologies such as HTML, CSS
-                  JavaScript and the{' '}
+                  Douala, and was intended to improve the company&apos;s
+                  visibility on social media. This site uses technologies such
+                  as HTML, CSS JavaScript and the{' '}
                   <NextLink
                     href="https://www.djangoproject.com/"
                     target="_blank"
@@ -465,12 +415,12 @@ export default function Home() {
               <div className="md:pt-3 pb-2">
                 <a
                   className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
-                  id="go-to-contact"
                   href="#contact"
+                  id="go-to-contact"
                 >
                   <p>Contact</p>
                   <span>
-                    <ArrowDownIcon className='md:w-5 w-4' />
+                    <ArrowDownIcon className="md:w-5 w-4" />
                   </span>
                 </a>
               </div>

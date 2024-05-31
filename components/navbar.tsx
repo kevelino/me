@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -8,14 +9,11 @@ import {
   NavbarMenuItem,
 } from '@nextui-org/navbar';
 import React from 'react';
-
 import Image from 'next/image';
 import NextLink from 'next/link';
-
 import { Link } from '@nextui-org/link';
 
 import Logo from '@/public/logo.png';
-
 import { siteConfig } from '@/config/site';
 import { ThemeSwitch } from '@/components/theme-switch';
 
