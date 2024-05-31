@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 import {
   TwitterIcon,
   GithubIcon,
   DiscordIcon,
   LinkedinIcon,
 } from '@/components/icons';
-import Link from 'next/link';
+
 import { siteConfig } from '@/config/site';
 
 export const Social = () => {
@@ -12,34 +14,34 @@ export const Social = () => {
     <div className="fixed flex bg-default-900 right-0 top-1/3 p-2 rounded-lg">
       <ul className="flex gap-2 flex-col">
         <Link
-          className="py-1"
-          target="_blank"
           aria-label="Twitter"
+          className="py-1"
           href={siteConfig.links.x}
+          target="_blank"
         >
           <TwitterIcon className="text-default-100" />
         </Link>
         <Link
-          className="py-1"
-          target="_blank"
           aria-label="Github"
+          className="py-1"
           href={siteConfig.links.github}
+          target="_blank"
         >
           <GithubIcon className="text-default-100" />
         </Link>
         <Link
-          className="py-1"
-          target="_blank"
           aria-label="Github"
+          className="py-1"
           href={siteConfig.links.discord}
+          target="_blank"
         >
           <DiscordIcon className="text-default-100" />
         </Link>
         <Link
-          className="py-1"
-          target="_blank"
           aria-label="Github"
+          className="py-1"
           href={siteConfig.links.linkedin}
+          target="_blank"
         >
           <LinkedinIcon className="text-default-100" />
         </Link>

@@ -8,10 +8,13 @@ import {
   NavbarMenuItem,
 } from '@nextui-org/navbar';
 import React from 'react';
+
 import Image from 'next/image';
-import Logo from '@/public/logo.png';
-import { Link } from '@nextui-org/link';
 import NextLink from 'next/link';
+
+import { Link } from '@nextui-org/link';
+
+import Logo from '@/public/logo.png';
 
 import { siteConfig } from '@/config/site';
 import { ThemeSwitch } from '@/components/theme-switch';
@@ -23,11 +26,11 @@ export const Navbar = () => {
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Image
-              src={Logo}
-              width={200}
-              height={200}
               alt="Kevelino's Logo"
               className="w-[30px]"
+              height={200}
+              src={Logo}
+              width={200}
             />
           </NextLink>
         </NavbarBrand>

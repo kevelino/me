@@ -1,17 +1,20 @@
-import { Link as NextLink } from '@nextui-org/link'
 import Image from 'next/image';
+
 import { ArrowDownIcon } from '@heroicons/react/24/solid';
-import clsx from 'clsx';
-import BannerImage from '@/public/web-development.png';
-import Transition from '@/components/transition';
-import MyImage from '@/public/image.png';
+
+import { Link as NextLink } from '@nextui-org/link';
 import { Divider } from '@nextui-org/divider';
 import { Button } from '@nextui-org/button';
 import { Progress } from '@nextui-org/progress';
+
+import BannerImage from '@/public/web-development.png';
+import MyImage from '@/public/image.png';
 import Project1 from '@/public/project-01.png';
 import Project2 from '@/public/project-02.png';
 import Project3 from '@/public/project-03.png';
 import Project4 from '@/public/project-04.png';
+
+import Transition from '@/components/transition';
 import { ContactForm } from '@/components/contact';
 
 export default function Home() {
@@ -21,10 +24,10 @@ export default function Home() {
         <div className="flex flex-col mb-6">
           <div className="flex items-center justify-center md:my-3">
             <Image
-              src={BannerImage}
               alt="Banner Image"
-              width={800}
               className="w-24 md:w-48"
+              src={BannerImage}
+              width={800}
             />
           </div>
           <div className="flex justify-center md:my-2">
@@ -43,13 +46,13 @@ export default function Home() {
           <div className="flex py-4 justify-center items-center">
             <div className="">
               <a
-                href="#about"
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                 id="go-to-about"
+                href="#about"
               >
                 <p>About</p>
                 <span>
-                  <ArrowDownIcon className={clsx('md:w-5 w-4')} />
+                  <ArrowDownIcon className='md:w-5 w-4' />
                 </span>
               </a>
             </div>
@@ -61,11 +64,11 @@ export default function Home() {
           <div className="flex items-start justify-arround">
             <div className="hidden md:flex h-[32rem] w-2/5">
               <Image
-                src={MyImage}
                 alt="About me Image"
-                width={800}
-                height={800}
                 className="h-full w-full cursor-pointer"
+                height={800}
+                src={MyImage}
+                width={800}
               />
             </div>
             <div className="flex py-2 justify-end md:w-3/5 w-full">
@@ -103,7 +106,7 @@ export default function Home() {
               >
                 <p>Skills</p>
                 <span>
-                  <ArrowDownIcon className={clsx('md:w-5 w-4')} />
+                  <ArrowDownIcon className='md:w-5 w-4' />
                 </span>
               </a>
             </div>
@@ -127,7 +130,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="warning"
                   value={95}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -143,7 +145,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="primary"
                   value={90}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -159,7 +160,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="success"
                   value={85}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -175,7 +175,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="danger"
                   value={80}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -191,7 +190,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="warning"
                   value={65}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -207,7 +205,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="primary"
                   value={80}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -223,7 +220,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="success"
                   value={86}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -239,7 +235,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="danger"
                   value={82}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -255,7 +250,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="warning"
                   value={74}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -271,7 +265,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="primary"
                   value={88}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -287,7 +280,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="success"
                   value={65}
-                  className=""
                 />
               </div>
               <div className="py-1">
@@ -303,7 +295,6 @@ export default function Home() {
                   aria-label="Loading..."
                   color="danger"
                   value={70}
-                  className=""
                 />
               </div>
             </div>
@@ -311,13 +302,13 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="md:pt-3 pb-2">
               <a
-                href="#projects"
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                 id="go-to-projects"
+                href="#projects"
               >
                 <p>Projects</p>
                 <span>
-                  <ArrowDownIcon className={clsx('md:w-5 w-4')} />
+                  <ArrowDownIcon className='md:w-5 w-4' />
                 </span>
               </a>
             </div>
@@ -330,10 +321,10 @@ export default function Home() {
             <div className="md:flex justify-between md:py-12">
               <div className="md:w-3/5 w-full">
                 <Image
-                  src={Project1}
                   alt="Project 1 Image"
-                  width={800}
                   className="md:w-[500px] w-[100px]"
+                  src={Project1}
+                  width={800}
                 />
               </div>
               <div className="md:w-2/5 w-full py-6">
@@ -360,10 +351,10 @@ export default function Home() {
             <div className="md:flex justify-between md:py-12">
               <div className="md:w-3/5 w-full">
                 <Image
-                  src={Project2}
                   alt="Project 1 Image"
-                  width={800}
                   className="md:w-[500px] w-[100px]"
+                  src={Project2}
+                  width={800}
                 />
               </div>
               <div className="md:w-2/5 w-full py-6">
@@ -382,10 +373,10 @@ export default function Home() {
                   .
                 </p>
                 <Button
-                  href="https:www.cfptac.com"
                   as={NextLink}
-                  variant="solid"
                   className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white text-lg"
+                  href="https:www.cfptac.com"
+                  variant="solid"
                 >
                   View Site
                 </Button>
@@ -394,10 +385,10 @@ export default function Home() {
             <div className="md:flex justify-between md:py-12">
               <div className="md:w-3/5 w-full">
                 <Image
-                  src={Project3}
                   alt="Project 1 Image"
-                  width={800}
                   className="md:w-[500px] w-[100px]"
+                  src={Project3}
+                  width={800}
                 />
               </div>
               <div className="md:w-2/5 w-full py-6">
@@ -415,10 +406,10 @@ export default function Home() {
                   .
                 </p>
                 <Button
-                  href="https:www.abenzou.com"
                   as={NextLink}
-                  variant="solid"
                   className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white text-lg"
+                  href="https:www.abenzou.com"
+                  variant="solid"
                 >
                   View Site
                 </Button>
@@ -427,10 +418,10 @@ export default function Home() {
             <div className="md:flex justify-between md:py-12">
               <div className="md:w-3/5 w-full">
                 <Image
-                  src={Project4}
                   alt="Project 1 Image"
-                  width={800}
                   className="md:w-[500px] w-[100px]"
+                  src={Project4}
+                  width={800}
                 />
               </div>
               <div className="md:w-2/5 w-full py-1">
@@ -461,10 +452,10 @@ export default function Home() {
                   and many others. .
                 </p>
                 <Button
-                  href="https:www.etress.com"
                   as={NextLink}
-                  variant="solid"
                   className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white text-lg"
+                  href="https:www.etress.com"
+                  variant="solid"
                 >
                   View Site
                 </Button>
@@ -473,13 +464,13 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="md:pt-3 pb-2">
                 <a
-                  href="#contact"
                   className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                   id="go-to-contact"
+                  href="#contact"
                 >
                   <p>Contact</p>
                   <span>
-                    <ArrowDownIcon className={clsx('md:w-5 w-4')} />
+                    <ArrowDownIcon className='md:w-5 w-4' />
                   </span>
                 </a>
               </div>

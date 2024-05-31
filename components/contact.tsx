@@ -10,8 +10,6 @@ export const ContactForm = () => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    // Ici, vous pouvez ajouter la logique d'envoi du formulaire (par exemple, utiliser un service d'envoi d'e-mails)
-    console.log('Formulaire soumis :', { name, email, message });
     // Réinitialiser les champs du formulaire
     setName('');
     setEmail('');
@@ -25,37 +23,37 @@ export const ContactForm = () => {
       <form onSubmit={handleSubmit} className="md:w-2/4 w-full">
         <div className="flex items-center justify-center py-2">
           <Input
-            isRequired
-            type="text"
-            label="Your Name"
-            value={name}
-            onChange={e => setName(e.target.value)}
             className="max-w-md"
+            isRequired
+            label="Your Name"
+            onChange={e => setName(e.target.value)}
+            type="text"
+            value={name}
           />
         </div>
         <div className="flex items-center justify-center py-2">
           <Input
-            isRequired
-            type="email"
-            label="Email"
-            value={email}
-            onChange={e => setEmail(e.target.value)}
             className="max-w-md"
+            isRequired
+            label="Email"
+            onChange={e => setEmail(e.target.value)}
+            type="email"
+            value={email}
           />
         </div>
         <div className="flex items-center justify-center py-2">
           <Textarea
-            isRequired
-            label="Message"
-            value={message}
-            onChange={e => setMessage(e.target.value)}
             className="max-w-md"
+            label="Message"
+            isRequired
+            onChange={e => setMessage(e.target.value)}
+            value={message}
           />
         </div>
         <div className="flex items-center justify-center py-2">
           <button
-            type="submit"
             className="py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-md"
+            type="submit"
           >
             {' '}
             Send message{' '}
