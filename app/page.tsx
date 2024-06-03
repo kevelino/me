@@ -325,7 +325,8 @@ export default function Home() {
                 <Button
                   as={NextLink}
                   className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white text-lg"
-                  href="https:www.cfptac.com"
+                  href="https://www.cfptac.com"
+                  target="_blank"
                   variant="solid"
                 >
                   View Site
@@ -358,7 +359,8 @@ export default function Home() {
                 <Button
                   as={NextLink}
                   className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white text-lg"
-                  href="https:www.abenzou.com"
+                  href="https://www.abenzou.com"
+                  target="_blank"
                   variant="solid"
                 >
                   View Site
@@ -404,7 +406,8 @@ export default function Home() {
                 <Button
                   as={NextLink}
                   className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white text-lg"
-                  href="https:www.etress.com"
+                  href="https://www.etress.com"
+                  target="_blank"
                   variant="solid"
                 >
                   View Site
