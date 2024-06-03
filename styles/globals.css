@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Styles globaux pour toute la page */
 body {
   scrollbar-width: thin; /* Largeur de la scrollbar (Firefox) */

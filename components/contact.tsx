@@ -8,7 +8,7 @@ export const ContactForm = () => {
       className="w-full flex items-center justify-center md:py-6 py-2"
       id="contact"
     >
-      <form className="md:w-2/4 w-full">
+      <form className="md:w-3/4 w-full">
         <div className="flex items-center justify-center py-2">
           <Input
             className="max-w-md"
@@ -33,6 +33,7 @@ export const ContactForm = () => {
           <button
             className="py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-md"
             type="submit"
+            disabled
           >
             {' '}
             Send message{' '}

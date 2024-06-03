@@ -43,16 +43,16 @@ export default function Home() {
           </div>
           <div className="flex py-4 justify-center items-center">
             <div className="">
-              <a
+              <NextLink
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                 href="#about"
                 id="go-to-about"
               >
-                <p>About</p>
+                <p className='text-foreground'>About</p>
                 <span>
-                  <ArrowDownIcon className="md:w-5 w-4" />
+                  <ArrowDownIcon className="md:w-5 w-4 text-foreground" />
                 </span>
-              </a>
+              </NextLink>
             </div>
           </div>
         </div>
@@ -97,16 +97,16 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <div className="md:pt-3 pb-8">
-              <a
+              <NextLink
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                 href="#skills"
                 id="go-to-skills"
               >
-                <p>Skills</p>
+                <p className='text-foreground'>Skills</p>
                 <span>
-                  <ArrowDownIcon className="md:w-5 w-4" />
+                  <ArrowDownIcon className="md:w-5 w-4 text-foreground" />
                 </span>
-              </a>
+              </NextLink>
             </div>
           </div>
         </div>
@@ -251,16 +251,16 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <div className="md:pt-3 pb-2">
-              <a
+              <NextLink
                 className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                 href="#projects"
                 id="go-to-projects"
               >
-                <p>Projects</p>
+                <p className='text-foreground'>Projects</p>
                 <span>
-                  <ArrowDownIcon className="md:w-5 w-4" />
+                  <ArrowDownIcon className="md:w-5 w-4 text-foreground" />
                 </span>
-              </a>
+              </NextLink>
             </div>
           </div>
         </div>
@@ -413,16 +413,16 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <div className="md:pt-3 pb-2">
-                <a
+                <NextLink
                   className="md:text-2xl text-xl font-semibold uppercase flex flex-col items-center"
                   href="#contact"
                   id="go-to-contact"
                 >
-                  <p>Contact</p>
+                  <p className='text-foreground'>Contact</p>
                   <span>
-                    <ArrowDownIcon className="md:w-5 w-4" />
+                    <ArrowDownIcon className="md:w-5 w-4 text-foreground" />
                   </span>
-                </a>
+                </NextLink>
               </div>
             </div>
           </div>
